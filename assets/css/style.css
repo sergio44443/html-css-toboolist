@@ -26,7 +26,6 @@ body{
 .testologo{
   padding-left: 20px;
   font-size: 3rem;
-  position: fixed;
 }
 
 .task{
@@ -55,8 +54,29 @@ body{
 .box .new-task::before{
 
 }
-[type=checkbox]:disabled {
-  background-color: #CCD3D8;
-  opacity: 0.84;
-  cursor: not-allowed;
+.bottone1{
+  background-color: #4CAAF3;
+  border: none;
+  color: white;
+  margin: 4px 2px;
+  text-decoration: none;
+  padding: 5px 10px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  border-radius:10px;
+}
+.bottone2{
+  background-color: #ffffff;
+
+  color: rgb(150, 150, 150);
+  border-bottom: rgb(150, 150, 150);
+  border-bottom: rgb(150, 150, 150);
+  border-color: rgb(150, 150, 150);
+  text-decoration: none;
+  padding: 5px 10px;
+  display: inline-block;
+  text-align: center;
+
+  border-radius:7px;
 }
