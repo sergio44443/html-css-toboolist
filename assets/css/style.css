@@ -6,12 +6,15 @@
 
 .sfondo-alto{
   width: 100%;
-  height: ;
-  background-color: aliceblue;
+  background-color: white;
   margin: 0 auto;
   padding-top: 40px;
   padding-bottom: 40px;
   padding-left: 40px;
+}
+
+.sfondo-alto .logo-png{
+  size: 150px;
 }
 
 body{
