@@ -1,0 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: bo;
+}
+
+.sfondo-alto{
+  width: 100%;
+  height: ;
+  background-color: aliceblue;
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+}
+
+body{
+  background-color: aquamarine;
+}
