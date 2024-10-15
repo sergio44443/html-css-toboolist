@@ -45,15 +45,11 @@ body{
 }
 .button-container{
   padding-top: 30px;
-
-
 }
 .new-task{
   font-size: 1.4rem
 }
-.box .new-task::before{
 
-}
 .bottone1{
   background-color: #4CAAF3;
   border: none;
