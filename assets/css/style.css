@@ -1,78 +1,190 @@
 *{
-  margin: 0;
-  padding: 0;
-  box-sizing: bo;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-header{
- margin-bottom: 30px;
-}
+
 body{
-  background-color: aquamarine;
+    font-family: sans-serif;
+    background-color: #F5F8FD;
 }
 
-.sfondo-alto{
-  width: 100%;
-  background-color: white;
-  margin: 0 auto;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 10px;
+header{
+    background-color: #fff;
+    padding: 15px;
 }
 
-.logo1{
- max-height: 90px;
+h1{
+    display: inline-block;
 }
 
-.testologo{
-  padding-left: 20px;
-  font-size: 3rem;
+header img,
+header h1{
+    vertical-align: middle;
 }
 
-.task{
-  display: inline-block;
-  box-sizing: 500px;
-  width: 50px;
-  height: 50px;
-}
-.box {
-  max-width: 1000px;
-  height: 800px;
-  padding-left: 30px;
-  padding-right: 30px;
-  margin-left: 300px;
-  margin-right: 300px;
-  background-color: rgb(255, 255, 255);
-}
-.button-container{
-  padding-top: 30px;
-}
-.new-task{
-  font-size: 1.4rem
+main{
+    background-color: #F5F8FD;
 }
 
-.bottone1{
-  background-color: #4CAAF3;
-  border: none;
-  color: white;
-  margin: 4px 2px;
-  text-decoration: none;
-  padding: 5px 10px;
-  display: inline-block;
-  text-align: center;
-  cursor: pointer;
-  border-radius:10px;
-}
-.bottone2{
-  background-color: #ffffff;
+/* hr{
+    background-color: red;
+} */
 
-  color: rgb(150, 150, 150);
-  border-bottom: rgb(150, 150, 150);
-  border-bottom: rgb(150, 150, 150);
-  border-color: rgb(150, 150, 150);
-  text-decoration: none;
-  padding: 5px 10px;
-  display: inline-block;
-  text-align: center;
-
-  border-radius:7px;
+.container{
+    margin: 30px auto;
+    width: 70%;
 }
+
+.todoCard{
+    background-color: #fff;
+    /* padding: 15px; */
+    border-radius: 8px;
+}
+
+.todoCard-top{
+    border-bottom: 1px solid #F5F8FD;
+    padding: 15px;
+}
+
+.todoCard-bottom{
+    padding: 15px;
+}
+
+ul{
+    list-style: none;
+}
+
+ul li h3{
+    text-transform: capitalize;
+}
+
+.todoCard-bottom ul li h3::before{
+    content: "\25BE";
+}
+
+.todoCard-bottom ul li{
+    line-height: 30px;
+}
+
+.todoCard-inner-list li::before{
+    border-radius: 50%;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.todoCard-inner-list li.checked::before{
+ content: "\2713";
+ color: green;
+ border: 1px solid green;
+}
+
+.todoCard-inner-list li.summit::before{
+    content: "\2713";
+    color: green;
+    border: 1px solid green;
+}
+
+.todoCard-inner-list li.homepage::before{
+    content: "\2713";
+    color: green;
+    border: 1px solid green;
+}
+
+.todoCard-inner-list li.sales::before{
+    content: "\2713";
+    color: green;
+    border: 1px solid green;
+}
+
+.todoCard-inner-list li.review::before{
+    content: "\2713";
+    color: green;
+    border: 1px solid green;
+}
+
+.todoCard-inner-list li.cross::before{
+ content: "\292B";
+ color: red;
+ border: 1px solid red;
+}
+
+.todoCard-inner-list li.interview::before{
+    content: "\292B";
+    color: red;
+    border: 1px solid red;
+}
+
+.todoCard-inner-list li.alex::before{
+    content: "\292B";
+    color: red;
+    border: 1px solid red;
+}
+
+.todoCard-bottom ul li::after{
+    color: white;
+    border-radius: 20px;
+    padding: 5px;
+    margin-left: 10px;
+    
+}
+
+.todoCard-bottom ul li.editorial::after{
+    content: 'Editorial';
+    background-color: #5AADF1;
+}
+
+.todoCard-bottom ul li.q1-goals::after{
+    content: 'Q1 Goals';
+    background-color: #9575E8;
+}
+
+.todoCard-bottom ul li.interview::after{
+    content: 'recruiting';
+    background-color: #67C2AA;
+}
+
+.todoCard-bottom ul li.summit::after{
+    content: 'mobile';
+    background-color: #F7A231;
+}
+
+.todoCard-bottom ul li.homepage::after{
+    content: 'website';
+    background-color: #D466A0;
+}
+
+.todoCard-bottom ul li.sales::after{
+    content: 'sales';
+    background-color: #ACC724;
+}
+
+.todoCard-bottom ul li.review::after{
+    content: 'editorial';
+    background-color: #44AAF1;
+}
+
+
+button{
+    border-radius: 4px;
+    padding: 5px;
+    border: 0;
+    text-transform: capitalize;
+}
+
+
+
+.bg-blue{
+    background-color: #5AADF1;
+}
+
+.text-white{
+    color: white;
+}
+/* header h1{
+    vertical-align: middle;
+} */

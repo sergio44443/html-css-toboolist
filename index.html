@@ -1,39 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="assets/css/style.css">
-  <title>toboolist</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toobolist</title>
+
+    <!-- link css -->
+     <link rel="stylesheet" href="assets/css/style.css">
+
 </head>
-
 <body>
-  <header>
-    <div class="sfondo-alto">
-      <div class="logo">
-         <img class="logo1" src="/img/logo copia.png" alt="logo-png">
-         <span class="testologo"><strong>Toboolist</strong></span>
-      </div>
-    </div>
-  </header>
-  
-  <main>
-    
-  </main> 
-  
-  <div class="box">
-    <div class="button-container">
-      <button class="bottone1">add section</button>
-      <button class="bottone2">add section</button>
-    </div>
-    <div>
-      <p class="new-task"><span>&#9660;</span><strong>New Task</strong></p>
-      <div class="checkbox">
-         <input type="checkbox" checked><p><strong>Quarterly newsletter</strong></p>
-        </div>
-    </divclass=>
-  </div>
+    <header>
+        <img src="./assets/imgs/Logo.png" alt="Logo">
+        <h1>Toboolist</h1>
+    </header>
 
- 
+    <main class="container">
+        <div class="todoCard">
+            <div class="todoCard-top">
+                <button class="bg-blue text-white">add task</button>
+                <button>add section</button>
+            </div>
+
+            <div class="todoCard-bottom">
+                <ul>
+                    <li>
+                        <h3>New task</h3>
+                        <ul class="todoCard-inner-list">
+                            <li class="checked editorial">Lorem ipsum</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>Today</h3>
+                        <ul class="todoCard-inner-list">
+                            <li class="checked editorial">Recruiting blog post</li>
+                            <li class="checked q1-goals">Mobile app launch</li>
+                            <li class="interview">Interview John H.</li>
+                            <li class="summit">Summit update to mobile storefronts</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>Upcoming</h3>
+                        <ul class="todoCard-inner-list">
+                            <li class="alex">schedule meeting with alex</li>
+                            <li class="homepage">homepage refresh</li>
+                            <li class="sales">Onboard new Sales team members</li>
+                            <li class="review">review editorial calendar</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- <hr> -->
+        </div>
+    </main>
 </body>
 </html>
